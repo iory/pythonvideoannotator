@@ -144,6 +144,17 @@ class BaseKeysEvents(BaseIO):
             logger.debug('Jumps 1 frame forward.')
             self.player.forward_one_frame()
 
+
+        # Jumps 1 frame backwards.
+        elif key == conf.SHORT_KEYS['Jumps 30 frame backward.']:
+            logger.debug('Jumps 30 frame backward.')
+            self.player.jump_backward_two()
+
+        # Jumps 1 frame forward.
+        elif key == conf.SHORT_KEYS['Jumps 30 frame forward.']:
+            logger.debug('Jumps 30 frame forward.')
+            self.player.jump_forward_two()
+
         # Jumps 20 seconds backward.
         elif key == conf.SHORT_KEYS['Jumps 20 seconds backward.']:
             logger.debug('Jumps 20 seconds backward.')

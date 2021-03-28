@@ -81,9 +81,12 @@ SHORT_KEYS = {
     'Select the previous event.':                           'Alt+A',
 
     # PLAYER
-    'Play or pause the video.':                             'Ctrl+P',
+    # 'Play or pause the video.':                             'Ctrl+P',
+    'Play or pause the video.':                             'Space',
     'Jumps 1 frame backward.':                              'Ctrl+I',
     'Jumps 1 frame forward.':                               'Ctrl+O',
+    'Jumps 30 frame backward.':                              'A',
+    'Jumps 30 frame forward.':                               'S',
     'Jumps 20 seconds backward.':                           'Ctrl+K',
     'Jumps 20 seconds forward.':                            'Ctrl+L',
     'Set player speed to 1x.':                              'Ctrl+1',

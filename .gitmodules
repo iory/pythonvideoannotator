@@ -57,7 +57,7 @@
 	url = https://github.com/video-annotator/pythonvideoannotator-module-virtualobjectgenerator.git
 [submodule "libraries/pyforms-gui"]
 	path = libraries/pyforms-gui
-	url = https://github.com/UmSenhorQualquer/pyforms-gui.git
+	url = https://github.com/iory/pyforms-gui.git
 [submodule "libraries/geometry-designer"]
 	path = libraries/geometry-designer
 	url = https://github.com/video-annotator/geometry-designer.git
